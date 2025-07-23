@@ -15,9 +15,7 @@ from sklearn.metrics import accuracy_score, precision_score
 from sklearn.preprocessing import LabelEncoder
 from tqdm import tqdm
 
-# DATA_SUFFIX = "-emineyetm"
-# DATA_SUFFIX = ""
-DATA_SUFFIX = "-chosen-ones"
+DATA_SUFFIX = ""
 RESULTS_DIR = f"data{DATA_SUFFIX}/results"
 INDICES_TEST_PATH = os.path.join(RESULTS_DIR, "fcl_indices.npy")
 TRUE_DATA_FILE = os.path.join(f"data{DATA_SUFFIX}", "real_clean.csv")
