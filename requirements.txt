@@ -1,0 +1,11 @@
+contractions
+fastrand
+matplotlib
+mlxtend
+nltk
+numpy
+pandas
+scikit-learn
+tensorflow
+tqdm
+uncertainty-toolbox
